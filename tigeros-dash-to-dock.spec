@@ -5,7 +5,7 @@ Summary:        dash-to-dock tweaks for TigerOS
 
 License:        GPLv3+
 URL:            https://github.com/RITlug/tigeros-dash-to-dock
-Source0:        https://builder.ritlug.com/packages/x86_64/%{name}-%{version}-%{release}.tar.gz
+Source0:        %{name}-%{version}-%{release}.tar.gz
 
 BuildArch:      noarch
 Requires:       gnome-shell-extension-dash-to-dock
