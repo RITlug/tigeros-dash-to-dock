@@ -37,6 +37,6 @@ dconf update
 %{_datadir}/glib-2.0/schemas/10_tigeros.dash-to-dock.gschema.override
 
 %changelog
-* Sun Apr 01 2018 Tim Zabel <tjz8659@rit.edu>
+* Sun Apr 01 2018 Tim Zabel <tjz8659@rit.edu> - 1.0-1
 - Created initial spec file
 - Added gschema override
