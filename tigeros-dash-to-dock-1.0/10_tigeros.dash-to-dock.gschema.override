@@ -1,0 +1,10 @@
+[org.gnome.shell]
+enabled-extensions="['dash-to-dock@micxgx.gmail.com']"
+
+[org.gnome.shell.extensions.dash-to-dock]
+dock-position=BOTTOM
+extend-height=true
+show-apps-at-top=true
+custom-theme-shrink=true
+dash-max-icon-size=32
+dock-fixed=true
