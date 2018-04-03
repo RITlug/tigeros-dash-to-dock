@@ -20,8 +20,8 @@ settings given from gnome-shell-extensions-dash-to-dock.
 %setup -q
 
 %install
-%{__mkdir_p} %{buildroot}%{_datadir}/share/glib-2.0/schemas
-install -p -m 644 %{buildroot}%{_datadir}/glib-2.0/schemas/10_tigeros.dash-to-dock.gschema.override
+%{__mkdir_p} %{buildroot}%{_datadir}/glib-2.0/schemas
+install -p -m 644 10_tigeros.dash-to-dock.gschema.override %{buildroot}%{_datadir}/glib-2.0/schemas/10_tigeros.dash-to-dock.gschema.override
 
 %post
 glib-compile-schemas /usr/share/glib-2.0/schemas/ 2>/dev/null
