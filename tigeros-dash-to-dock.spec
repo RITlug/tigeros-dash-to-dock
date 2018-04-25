@@ -28,6 +28,7 @@ glib-compile-schemas /usr/share/glib-2.0/schemas/ 2>/dev/null
 dconf update
 
 %postun
+rm %{_datadir}/glib-2.0/schemas/10_tigeros.dash-to-dock.gschema.override
 glib-compile-schemas /usr/share/glib-2.0/schemas 2>/dev/null
 dconf update
 
