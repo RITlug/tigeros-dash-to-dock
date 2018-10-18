@@ -1,6 +1,6 @@
 Name:           tigeros-dash-to-dock
 Version:        1.0
-Release:        1%{?dist}
+Release:        2%{?dist}
 Summary:        dash-to-dock tweaks for TigerOS
 
 License:        GPLv3+
@@ -38,6 +38,9 @@ dconf update
 %{_datadir}/glib-2.0/schemas/10_tigeros.dash-to-dock.gschema.override
 
 %changelog
+* Mon Oct 01 2018 Tim Zabel <tjz8659@rit.edu> - 1.0-2
+- Fedora 29 build
+
 * Sun Apr 01 2018 Tim Zabel <tjz8659@rit.edu> - 1.0-1
 - Created initial spec file
 - Added gschema override
